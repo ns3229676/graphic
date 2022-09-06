@@ -1,0 +1,92 @@
+.img{
+  width: 70%;
+  object-fit: contain;
+  position: absolute;
+  height: 82%;
+  }
+
+
+  .test__dataBox{
+
+  }
+
+
+  .first{
+    position: relative;
+    color: white;
+    padding-top: 15%;
+    padding-top: 11%;
+    margin-left: 9%;
+    font-size: 30px;
+    color: #35be86;
+    font-weight: 500;
+  }
+
+  .second{
+    position: relative;
+    color: white;
+    margin-left: 17%;
+    margin-top: -67px;
+    font-size: 30px;
+  }
+
+
+  .third{
+    position: relative;
+    color: white;
+    margin-left: 25%;
+    margin-top: -70px;
+    font-size: 30px;
+  }
+
+
+  .fourth{
+    position: relative;
+    margin-left: 152px;
+    margin-top: -2%;
+    font-size: 661%;
+    color: #35be86;
+    font-weight: 700;
+  }
+
+
+
+  .fifth{
+    position: relative;
+    color: #fdc623;
+    margin-left: 22%;
+    margin-top: -57px;
+    font-size: 28px;
+  }
+
+
+  .sixth{
+    position: relative;
+    color: #fdc623;
+    margin-left: 22%;
+    margin-top: -27px;
+    font-size: 28px;
+  }
+
+
+  .seventh{
+    position: relative;
+    color: white;
+    margin-left: 317px;
+    margin-top: 98px;
+    font-size: 51px;
+  }
+
+
+
+
+  .button{
+    position: relative;
+    color: black;
+    margin-left: 60%;
+    background-color: orange;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-top: 4%;
+  }

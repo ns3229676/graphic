@@ -1,0 +1,28 @@
+.change__box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 15%;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+.change__input{
+    margin: 15px 0px;
+    width: 181%;
+    padding: 2%;
+}
+
+
+.change__addButton{   
+   
+    background-color: orange;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-top: 4%;
+    color: black;
+}
