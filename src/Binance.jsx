@@ -1,15 +1,13 @@
 import React , { useRef } from 'react'
-import backgroundimage from './images/backgroundimage.png'
-import './Home.css'
+import backgroundimage from './images/backgroundimage.jpg'
+import './Binance.css'
 import { useLocation } from 'react-router-dom';
 import { useReactToPrint } from 'react-to-print';
 
 function Home() {
 
   const componentRef = useRef();
-  const handlePrint = useReactToPrint({
-    content: () => componentRef.current,
-  });
+  
 
 
   const { state } = useLocation();
@@ -47,7 +45,7 @@ function Home() {
 
     </div>
 
-    <button className='button' onClick={handlePrint}>Print this out!</button>
+   
 
     </div>
   )

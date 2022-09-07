@@ -1,3 +1,7 @@
+.change{
+    display: flex;
+}
+
 .change__box{
     display: flex;
     flex-direction: column;
@@ -25,4 +29,8 @@
     border-radius: 20px;
     margin-top: 4%;
     color: black;
+    width: 35%;
+    padding: 4%;
+    font-size: 15px;
+    font-weight: 700;
 }

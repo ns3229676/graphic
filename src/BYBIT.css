@@ -1,0 +1,59 @@
+.bybit{
+    display: flex;
+    justify-content: center;
+}
+
+.bybit__image{
+    height: 963px;
+    object-fit: contain;
+}
+
+
+
+
+
+.bybit__first{
+    margin-left: -526px;
+    color: white;
+    margin-top: 211px;
+    font-size: 29px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+
+
+.bybit__second{
+    margin-left: -354px;
+    /* color: white; */
+    margin-top: -58px;
+    color: green;
+        
+}
+
+
+
+.bybit__third{
+    color: green;
+    margin-left: -527px;
+    margin-top: 76px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+.bybit__fourth{
+    margin-left: -389px;
+    color: orange;
+    font-size: 23px;
+    margin-top: -38px;
+}
+
+
+
+.bybit__fifth{
+    margin-left: -365px;
+    color: orange;
+    font-size: 23px;
+    margin-top: -8px;
+}

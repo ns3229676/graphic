@@ -13,20 +13,30 @@ function Change() {
     const [sixthInput,setSixthinput] = useState()
     const [seventhInput,setSeventhinput] = useState()
 
+
+    const [firstBybitInput,setFirstBybitinput] = useState()
+    const [secondBybitInput,setSecondBybitinput] = useState()
+    const [thirdBybitInput,setThirdBybitinput] = useState()
+    const [fourthBybitInput,setfourthBybitinput] = useState()
+    const [fifthBybitInput,setFifthBybitinput] = useState()
+
   
 
     const addInputdata = ()=>{
-        navigate('/change' , { state: { inputDatas : [firstInput,secondInput,thirdInput,fourthInput,fifthInput,sixthInput,seventhInput] } })
+        navigate('/forbinacefuture' , { state: { inputDatas : [firstInput,secondInput,thirdInput,fourthInput,fifthInput,sixthInput,seventhInput] } })
     }
 
   
+    const addBybitdata = ()=>{
+      navigate('/BYBIT' , { state: { inputDatas : [firstBybitInput,secondBybitInput,thirdBybitInput,fourthBybitInput,fifthBybitInput] } })
+    }
 
   return (
     <div className='change'>
 
     <div className='change__box'>
 
-    <h1>Change</h1>
+    <h1>Change for BINACE</h1>
 
 
     <input className='change__input'  placeholder='Long' value={firstInput} onChange={(event)=> setFirstinput(event.target.value)} />
@@ -38,6 +48,24 @@ function Change() {
     <input className='change__input' placeholder='Enter Referral Code' onChange={(event) => setSeventhinput(event.target.value)} value={seventhInput}/>
 
     <button className='change__addButton' onClick={addInputdata}>ADD</button>
+
+
+    </div>
+
+
+    <div className='change__box'>
+
+    <h1>Change for BYBIT</h1>
+
+
+    <input className='change__input'  placeholder='Enter Coin Name' value={firstBybitInput} onChange={ (event)=> setFirstBybitinput(event.target.value) }/>
+    <input className='change__input' placeholder='Long' value={secondBybitInput} onChange={ (event)=> setSecondBybitinput(event.target.value) }/>
+    <input className='change__input' placeholder='Enter Percentage' value={thirdBybitInput} onChange={ (event)=> setThirdBybitinput(event.target.value) }/>
+    <input className='change__input' placeholder='Enter Entry Price' value={fourthBybitInput} onChange={ (event)=> setfourthBybitinput(event.target.value) }/>
+    <input className='change__input' placeholder='Enter current Price' value={fifthBybitInput} onChange={ (event)=> setFifthBybitinput(event.target.value) }/>
+   
+
+    <button className='change__addButton' onClick={addBybitdata}>ADD</button>
 
 
     </div>

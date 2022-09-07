@@ -15,9 +15,9 @@
     position: relative;
     color: white;
     padding-top: 15%;
-    padding-top: 11%;
-    margin-left: 9%;
-    font-size: 30px;
+    padding-top: 241px;
+    margin-left: 10%;
+    font-size: 32px;
     color: #35be86;
     font-weight: 500;
   }
@@ -25,18 +25,18 @@
   .second{
     position: relative;
     color: white;
-    margin-left: 17%;
-    margin-top: -67px;
-    font-size: 30px;
+    margin-left: 20%;
+    margin-top: -73px;
+    font-size: 31px;
   }
 
 
   .third{
     position: relative;
     color: white;
-    margin-left: 25%;
-    margin-top: -70px;
-    font-size: 30px;
+    margin-left: 30%;
+    margin-top: -71px;
+    font-size: 31px;
   }
 
 
@@ -55,7 +55,7 @@
     position: relative;
     color: #fdc623;
     margin-left: 22%;
-    margin-top: -57px;
+    margin-top: -88px;
     font-size: 28px;
   }
 
@@ -73,8 +73,8 @@
     position: relative;
     color: white;
     margin-left: 317px;
-    margin-top: 98px;
-    font-size: 51px;
+    margin-top: 96px;
+    font-size: 54px;
   }
 
 
@@ -88,5 +88,5 @@
     outline: none;
     border: none;
     border-radius: 20px;
-    margin-top: 4%;
+    margin-top: 30%;
   }
