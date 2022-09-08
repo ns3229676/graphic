@@ -4,7 +4,7 @@
 }
 
 .bybit__image{
-    height: 963px;
+    height: 685px;
     object-fit: contain;
 }
 
@@ -13,10 +13,10 @@
 
 
 .bybit__first{
-    margin-left: -526px;
+    margin-left: -379px;
     color: white;
-    margin-top: 211px;
-    font-size: 29px;
+    margin-top: 144px;
+    font-size: 20px;
     font-weight: 700;
     padding-top: 5px;
 }
@@ -24,36 +24,60 @@
 
 
 .bybit__second{
-    margin-left: -354px;
+    margin-left: -252px;
     /* color: white; */
-    margin-top: -58px;
-    color: green;
+    margin-top: -39px;
+    color: #20ad5b;
+    font-size: 12px;
         
 }
 
 
 
 .bybit__third{
-    color: green;
-    margin-left: -527px;
-    margin-top: 76px;
+    color: #20ad5b;
+    margin-left: -381px;
+    margin-top: 48px;
     font-size: 64px;
     font-weight: 700;
 }
 
 
 .bybit__fourth{
-    margin-left: -389px;
+    margin-left: -277px;
     color: orange;
-    font-size: 23px;
-    margin-top: -38px;
+    font-size: 18px;
+    margin-top: -63px;
 }
 
 
 
 .bybit__fifth{
-    margin-left: -365px;
+    margin-left: -261px;
     color: orange;
-    font-size: 23px;
+    font-size: 18px;
     margin-top: -8px;
+}
+
+.exclusive__rewards{
+    display: flex;
+    margin-top: 265px;
+    margin-left: -323px;
+    font-weight: 700;
+}
+
+.bybit__sixth__beforeCodedetails{
+    margin-right: 2%;
+}
+
+
+.bybit__code{
+    color: orange;
+    margin-right: 2%;
+}
+
+
+
+.bybit__code__afterdetails{
+
 }

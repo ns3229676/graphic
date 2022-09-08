@@ -21,6 +21,28 @@
 }
 
 
+.change__input__codeBeforedetails{
+    margin: 15px 0px;
+    width: 181%;
+    padding: 2%;
+}
+
+
+.change__input__code{
+    margin: 15px 0px;
+    width: 181%;
+    padding: 2%;
+}
+
+
+
+.change__input__codeAfterdetails{
+    margin: 15px 0px;
+    width: 181%;
+    padding: 2%;
+}
+
+
 .change__addButton{   
    
     background-color: orange;

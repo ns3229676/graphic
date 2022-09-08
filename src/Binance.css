@@ -1,9 +1,9 @@
 .img{
-  width: 70%;
+  width: 42%;
   object-fit: contain;
   position: absolute;
   height: 82%;
- 
+ margin-left: 10%;
   }
 
 
@@ -11,13 +11,24 @@
 
   }
 
+  .red{
+    color: #de4f59;
+    position: relative;
+    
+    padding-top: 15%;
+    padding-top: 289px;
+    margin-left: 14%;
+    font-size: 32px;
+   
+    font-weight: 500;
+  }
 
   .first{
     position: relative;
     color: white;
     padding-top: 15%;
-    padding-top: 241px;
-    margin-left: 10%;
+    padding-top: 289px;
+    margin-left: 14%;
     font-size: 32px;
     color: #35be86;
     font-weight: 500;
@@ -26,7 +37,7 @@
   .second{
     position: relative;
     color: white;
-    margin-left: 20%;
+    margin-left: 21%;
     margin-top: -73px;
     font-size: 31px;
   }
@@ -35,7 +46,7 @@
   .third{
     position: relative;
     color: white;
-    margin-left: 30%;
+    margin-left: 28%;
     margin-top: -71px;
     font-size: 31px;
   }
@@ -43,9 +54,9 @@
 
   .fourth{
     position: relative;
-    margin-left: 152px;
+    margin-left: 271px;
     margin-top: -2%;
-    font-size: 661%;
+    font-size: 467%;
     color: #35be86;
     font-weight: 700;
   }
@@ -55,27 +66,28 @@
   .fifth{
     position: relative;
     color: #fdc623;
-    margin-left: 22%;
-    margin-top: -88px;
-    font-size: 28px;
+    margin-left: 28%;
+    margin-top: -87px;
+    font-size: 20px;
   }
 
 
   .sixth{
     position: relative;
     color: #fdc623;
-    margin-left: 22%;
-    margin-top: -27px;
-    font-size: 28px;
+    margin-left: 28%;
+    margin-top: -23px;
+    font-size: 20px;
   }
 
 
   .seventh{
     position: relative;
     color: white;
-    margin-left: 317px;
-    margin-top: 96px;
-    font-size: 54px;
+    margin-left: 371px;
+    margin-top: 56px;
+    font-size: 38px;
+
   }
 
 

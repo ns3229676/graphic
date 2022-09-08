@@ -24,6 +24,18 @@ function BYBIT() {
     <p className='bybit__fifth' >{inputDatas[4]}</p>
 
 
+    <div className='exclusive__rewards'>
+
+    <p className='bybit__sixth__beforeCodedetails' >{inputDatas[5]}</p>
+
+    <p className='bybit__code' >{inputDatas[6]}</p>
+
+    <p className='bybit__code__afterdetails' >{inputDatas[7]}</p>
+
+    </div>
+
+
+
     </div>
 
     </div>

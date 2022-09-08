@@ -27,7 +27,9 @@ function Home() {
 
     <div className='test__dataBox'>
 
-    <p className='first' >{inputDatas[0]}</p>
+   
+
+    <p className={inputDatas[0] !== 'Long' ? 'red' : 'first' } >{inputDatas[0]}</p>
 
     <p className='second' >{inputDatas[1]}</p>
 

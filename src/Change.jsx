@@ -19,6 +19,9 @@ function Change() {
     const [thirdBybitInput,setThirdBybitinput] = useState()
     const [fourthBybitInput,setfourthBybitinput] = useState()
     const [fifthBybitInput,setFifthBybitinput] = useState()
+    const [sixthBybitInput,setSixthBybitinput] = useState()
+    const [enterCodeBybitInput,setEntercodeBybitinput] = useState()
+    const [seventhBybitInput,setSeventhBybitinput] = useState()
 
   
 
@@ -28,7 +31,7 @@ function Change() {
 
   
     const addBybitdata = ()=>{
-      navigate('/BYBIT' , { state: { inputDatas : [firstBybitInput,secondBybitInput,thirdBybitInput,fourthBybitInput,fifthBybitInput] } })
+      navigate('/BYBIT' , { state: { inputDatas : [firstBybitInput,secondBybitInput,thirdBybitInput,fourthBybitInput,fifthBybitInput,sixthBybitInput,enterCodeBybitInput,seventhBybitInput] } })
     }
 
   return (
@@ -63,6 +66,13 @@ function Change() {
     <input className='change__input' placeholder='Enter Percentage' value={thirdBybitInput} onChange={ (event)=> setThirdBybitinput(event.target.value) }/>
     <input className='change__input' placeholder='Enter Entry Price' value={fourthBybitInput} onChange={ (event)=> setfourthBybitinput(event.target.value) }/>
     <input className='change__input' placeholder='Enter current Price' value={fifthBybitInput} onChange={ (event)=> setFifthBybitinput(event.target.value) }/>
+
+    <input className='change__input__codeBeforedetails' placeholder='Enter Code befor details' value={sixthBybitInput} onChange={ (event)=> setSixthBybitinput(event.target.value) }/>
+
+    <input className='change__input__code' placeholder='Enter Code ' value={enterCodeBybitInput} onChange={ (event)=> setEntercodeBybitinput(event.target.value) }/>
+
+
+    <input className='change__input__codeAfterdetails' placeholder='Enter Code after details' value={seventhBybitInput} onChange={ (event)=> setSeventhBybitinput(event.target.value) }/>
    
 
     <button className='change__addButton' onClick={addBybitdata}>ADD</button>
