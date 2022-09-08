@@ -9,9 +9,9 @@ function App() {
     <div className='app'>
     
     <Routes>
+    <Route  path="/graphic" element={<Change/>} />
     <Route  path="/BYBIT" element={<BYBIT/>} />
     <Route  path="/forbinacefuture" element={<Home/>} />
-    <Route  path="/" element={<Change/>} />
     
   </Routes>
     
