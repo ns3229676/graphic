@@ -1,3 +1,6 @@
+
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
+
 .img{
   width: 42%;
   object-fit: contain;
@@ -28,18 +31,20 @@
     color: white;
     padding-top: 15%;
     padding-top: 289px;
-    margin-left: 14%;
+    margin-left: 15%;
     font-size: 32px;
     color: #35be86;
     font-weight: 500;
+    font-family: 'Bahnschrift', sans-serif;
   }
 
   .second{
     position: relative;
     color: white;
     margin-left: 21%;
-    margin-top: -73px;
+    margin-top: -67px;
     font-size: 31px;
+    font-family: 'Bahnschrift', sans-serif;
   }
 
 
@@ -47,18 +52,20 @@
     position: relative;
     color: white;
     margin-left: 28%;
-    margin-top: -71px;
+    margin-top: -67px;
     font-size: 31px;
+    font-family: 'Bahnschrift', sans-serif;
   }
 
 
   .fourth{
     position: relative;
     margin-left: 271px;
-    margin-top: -2%;
+    margin-top: -1%;
     font-size: 467%;
     color: #35be86;
     font-weight: 700;
+    font-family: 'Bahnschrift', sans-serif;
   }
 
 
@@ -66,18 +73,20 @@
   .fifth{
     position: relative;
     color: #fdc623;
-    margin-left: 28%;
-    margin-top: -87px;
+    margin-left: 24%;
+    margin-top: -84px;
     font-size: 20px;
+    font-family: 'Bahnschrift', sans-serif;
   }
 
 
   .sixth{
     position: relative;
     color: #fdc623;
-    margin-left: 28%;
+    margin-left: 24%;
     margin-top: -23px;
     font-size: 20px;
+    font-family: 'Bahnschrift', sans-serif;
   }
 
 
@@ -85,8 +94,9 @@
     position: relative;
     color: white;
     margin-left: 371px;
-    margin-top: 56px;
+    margin-top: 62px;
     font-size: 38px;
+    font-family: 'Bahnschrift', sans-serif;
 
   }
 
